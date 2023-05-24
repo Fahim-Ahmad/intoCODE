@@ -1,0 +1,148 @@
+/* final project */
+/* header */
+header h1 {
+  color: darkred;
+  text-align: center;
+}
+
+/* main */
+#wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+
+#wrapper div {
+  border:gray 1px solid;
+  width: 33%;
+  text-align: center;
+  background-color: skyblue;
+}
+
+#wrapper div:hover {
+  background-color: #17a2b8;
+}
+
+#wrapper div a {
+  color: black;
+  text-decoration: none;
+}
+
+/* form - adding new book */
+#add_book input:not([type="submit"]),
+#add_book textarea {
+  width: 100%;
+}
+
+#add_book select {
+  width: 40%;
+}
+
+.error {
+  color: red;
+  font-size: small;
+}
+
+.required {
+  color: red;
+}
+
+.success {
+  color: #17a2b8;
+}
+
+/* edit book */
+#edit_book input:not([type="submit"]),
+#edit_book textarea {
+  width: 100%;
+}
+
+#edit_book select {
+  width: 40%;
+}
+
+/* form - remove book */
+#remove_book input:not([type="submit"]),
+#remove_book textarea {
+  width: 100%;
+}
+
+#remove_book select {
+  width: 40%;
+}
+
+/* books div */
+.book_info {
+  width: 31%;
+  height: 200px;
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+.book_info:hover {
+  background-color: lightgray;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.book_info .book_title {
+  color: #17a2b8;
+  font-size: 1.5em;
+}
+
+.book_info .book_year,
+.book_info .publisher,
+.book_info .book_id {
+  color: darkred;
+  font-size: small;
+}
+
+.book_info p {
+  color: gray;
+  font-size: small;
+}
+
+#delete_edit {
+  display: flex;
+  flex-direction: row;
+}
+
+.book_info form {
+  margin: 0;
+  padding: 0;
+}
+
+/* add book-box */
+#add_book_box {
+  background-color: skyblue;
+}
+
+#add_book_box input,
+#add_book_box textarea,
+#add_book_box select {
+  width: 90%;
+}
+
+#add_book_box .success {
+  color: green;
+}
+
+
+/* media */
+@media (max-width: 1000px) {
+  .book_info {
+    width: 100%;
+  }
+  
+}
+
+
+
+
