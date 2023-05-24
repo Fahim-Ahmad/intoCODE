@@ -7,7 +7,7 @@ It features the following functionalities:
 
 * Adding a new book to the database
 * Modifying details of an existing book
-* Remowing a book from the database
+* Removing a book from the database
 
 
 I used PHP for server-side logic and CSS for styling the appearance of the application.
