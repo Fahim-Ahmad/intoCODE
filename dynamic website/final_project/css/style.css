@@ -44,7 +44,7 @@ header h1 {
 }
 
 .required {
-  color: red;
+  color: darkred;
 }
 
 .success {
@@ -113,6 +113,17 @@ header h1 {
   display: flex;
   flex-direction: row;
 }
+
+#delete_edit .delete_btn {
+  color: white;
+  background-color: Firebrick;
+}
+
+#delete_edit .edit_btn {
+  color: white;
+  background-color: #17a2b8;
+}
+
 
 .book_info form {
   margin: 0;

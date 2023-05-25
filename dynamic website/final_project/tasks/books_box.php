@@ -28,14 +28,14 @@ if ($result->num_rows > 0) {
               echo '<input type="hidden" name="book_id" value="' .$id . '">';
               echo '<input type="hidden" name="form" value="delete_1">';
               // echo '<input type="submit" name="delete" value="Delete book ' .$id .'">';
-              echo '<input type="submit" name="delete" value="Delete book">';
+              echo '<input type="submit" class="delete_btn" name="delete" value="Delete book">';
               echo '</form>';
               
               echo '<form method="get">';
               echo '<input type="hidden" name="book_id" value="' .$id . '">';
               echo '<input type="hidden" name="form" value="edit_1">';
               // echo '<input type="submit" name="edit" value="Edit book ' .$id .'">';
-              echo '<input type="submit" name="edit" value="Edit book">';
+              echo '<input type="submit" class="edit_btn" name="edit" value="Edit book">';
               echo '</form>';
               
         echo '</div>';
