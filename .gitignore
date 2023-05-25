@@ -1,3 +1,4 @@
+*ignore_git*
 *.DS_Store
 # History files
 .Rhistory
