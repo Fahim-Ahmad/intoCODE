@@ -11,7 +11,7 @@ It features the following functionalities:
 
 
 I used PHP for server-side logic and CSS for styling the appearance of the application.
-The final outtput looks as below.
+The final output looks as below.
 
 ![final_project](img/img_1.png)
 
