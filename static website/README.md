@@ -21,6 +21,6 @@ Click [here](https://static-website-final-project.netlify.app/) to view a live d
 
 ## How it looks on mobile devices
 
-![mobile_device_page1](img/mobile_device_page1.png)
-![mobile_device_page2](img/mobile_device_page2.png)
-![mobile_device_page3](img/mobile_device_page3.png)
+<img src="img/mobile_device_page1.png" alt="mobile_device_page1" width="200" height="150">
+<img src="img/mobile_device_page2.png" alt="mobile_device_page2" width="200" height="150">
+<img src="img/mobile_device_page3.png" alt="mobile_device_page3" width="200" height="150">
