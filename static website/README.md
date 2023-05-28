@@ -14,10 +14,13 @@ Click [here](https://static-website-final-project.netlify.app/) to view a live d
 
 ## How it looks on computer screens
 
-
-## How it looks on mobile devices
-
 ![computer_screen_page1](img/computer_screen_page1.png)
 ![computer_screen_page2](img/computer_screen_page2.png)
 ![computer_screen_page3](img/computer_screen_page3.png)
-![computer_screen_page1](img/computer_screen_page4.png)
+![computer_screen_page4](img/computer_screen_page4.png)
+
+## How it looks on mobile devices
+
+![mobile_device_page1](img/mobile_device_page1.png)
+![mobile_device_page2](img/mobile_device_page2.png)
+![mobile_device_page3](img/mobile_device_page3.png)
