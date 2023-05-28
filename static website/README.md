@@ -1,6 +1,6 @@
 # About
-I developed this website as a showcase of my HTML and CSS skills, which I developed during the 'Static Website' class.
-While the its primary purpose is to demonstrate my abilities, anyone is welcome to use the template I've created.
+I developed this website as a showcase of my HTML and CSS skills that I developed during the 'Static Website' class.
+While its primary purpose is to demonstrate my abilities, anyone is welcome to use the template I've created.
 
 ## Features
 
