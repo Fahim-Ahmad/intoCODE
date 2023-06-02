@@ -162,14 +162,14 @@ div {
   align-items: center;
 }
 
-#profile #maintitle {
+#profile #profile_maintitle {
   text-align: center;
   font-size: 36px;
   letter-spacing: 3px;
   word-spacing: 5px;
 }
 
-#profile #subtitle {
+#profile #profile_subtitle {
   text-align: center;
   font-size: 18px;
 }
@@ -435,7 +435,7 @@ footer {
   height: 150px;
 }
 
-#profile #maintitle {
+#profile #profile_maintitle {
   font-size: 24px;
   letter-spacing: 2px;
   word-spacing: 3px;
