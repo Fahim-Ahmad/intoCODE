@@ -1,0 +1,44 @@
+/*
+Theme Name: test
+Theme URI: http://www.imberuf.de/r71/demo
+Author: Fahim Ahmad Yousufzai
+Author URI: https://fahimahmad.netlify.app/
+Description: We make a WordPress theme from YAML4
+Version: 1.0
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: education, one-column, two-columns, right-sidebar
+Text Domain: test
+Tested up to: 6.0
+Requires PHP: 7.0
+*/
+
+/**
+ * "Yet Another Multicolumn Layout" - YAML CSS Framework
+ *
+ * central stylesheet - layout example "flexible-columns"
+ *
+ * @copyright       Copyright 2005-2023, Dirk Jesse
+ * @license         CC-BY 2.0 (http://creativecommons.org/licenses/by/2.0/),
+ *                  YAML-CDL (http://www.yaml.de/license.html)
+ * @link            http://www.yaml.de
+ */
+
+/* Google Font API */
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700|Droid+Sans:700);
+
+/* import core styles | Basis-Stylesheets einbinden */
+@import url(yaml/core/base.css);
+
+/* import screen layout | Screen-Layout einbinden */
+@import url(yaml/navigation/hlist.css);
+@import url(yaml/forms/gray-theme.css);
+
+@import url(yaml/screen/typography.css);
+@import url(yaml/screen/screen-PAGE-layout.css);
+
+/* import print layout | Druck-Layout einbinden */
+@import url(yaml/print/print.css);
+
+/* Korrekturen nach Bedarf */
+@import url(css/corrections.css);

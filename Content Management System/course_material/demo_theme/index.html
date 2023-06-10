@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Demo: Flexible Column Layout &ndash; YAML CSS Framework</title>
+    <!-- Mobile viewport optimisation -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- (en) Add your meta data here -->
+    <!-- (de) Fuegen Sie hier ihre Meta-Daten ein -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+	<link href="css/corrections.css" rel="stylesheet" type="text/css">
+    <!--[if lte IE 7]>
+    <link href="yaml/core/iehacks.css" rel="stylesheet" type="text/css">
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<ul class="ym-skiplinks">
+    <li><a class="ym-skip" href="#nav">Skip to navigation (Press Enter)</a></li>
+    <li><a class="ym-skip" href="#main">Skip to main content (Press Enter)</a></li>
+</ul>
+<div class="ym-wrapper">
+    <div class="ym-wbox">    
+        <header>        
+            <h1>Project Name</h1>            
+        </header>        
+        <!-- START Navigation -->
+        <nav id="nav">
+            <div class="ym-hlist">
+                <ul>
+                    <li class="active"><strong>Active</strong></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+                <form class="ym-searchform">
+                    <input class="ym-searchfield" type="search" placeholder="Search...">
+                    <input class="ym-searchbutton" type="submit" value="Search">
+                </form>                 
+            </div>
+        </nav>
+        <!-- ENDE Navigation --> 
+<!-- bis hier: header.php -->
+
+<!-- ab hier: index.php -->
+        <div id="main">
+            <div class="ym-column linearize-level-1">
+                <div class="ym-col1">
+                    <div class="ym-cbox">                    
+                        <section class="box info">
+                            <h2>Main Content</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                            sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                            magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                            sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                            dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            <a class="ym-button ym-next" href="#">Read More</a>
+                        </section>                        
+                    </div> <!-- ENDE ym-cbox -->
+                </div> <!-- ENDE ym-col1 --> 
+<!-- bis hier: index.php -->
+
+<!-- ab hier: sidebar.php -->
+                <div class="ym-col3">
+                    <div class="ym-cbox">                    
+                        <h2>Sidebar</h2>                        
+                    </div>    
+                </div> <!-- ENDE Sidebar --> 
+<!-- bis hier: sidebar.php -->
+
+<!-- ab hier: footer.php -->
+            </div> <!-- ENDE ym-column linearize-level-1 -->              
+        </div> <!-- ENDE main -->      
+        <footer>
+            <p>© MeinTemplate 2022 &ndash; Layout based on <a href="http://www.yaml.de">YAML</a></p>
+        </footer>        
+    </div>  <!-- ENDE ym-wbox -->
+</div> <!-- ENDE ym-wrapper -->
+<!-- full skip link functionality in webkit browsers -->
+<script src="yaml/core/js/yaml-focusfix.js"></script>
+</body>
+</html>
