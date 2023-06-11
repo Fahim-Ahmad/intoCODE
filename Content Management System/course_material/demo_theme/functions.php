@@ -3,8 +3,8 @@
    function register_menus() {
      register_nav_menus(
         array (
-         'menu-main' => __( 'Main Navigation Menu', 'test' ),
-            'menu-footer' => __( 'Footer Navigation Menu', 'test' )
+         'menu-main' => __( 'Main Navigation Menu', 'demo_theme' ),
+            'menu-footer' => __( 'Footer Navigation Menu', 'demo_theme' )
             )
        );
       }
@@ -12,9 +12,9 @@
  add_action( 'widgets_init', 'theme_slug_widgets_init' );
    function theme_slug_widgets_init() {
      register_sidebar( array(
-        'name' => __( 'Main Sidebar', 'test' ),
+        'name' => __( 'Main Sidebar', 'demo_theme' ),
         'id' => 'sidebar-1',
-        'description' => __( 'Widgets in this area will be shown on all posts and pages.', 'theme-slug' ),
+        'description' => __( 'Widgets in this area will be shown on all posts and pages.', 'demo_theme' ),
         'before_widget' => '<li id="%1$s" class="widget %2$s">',
         'after_widget' => '</li>',
         'before_title' => '<h3 class="widgettitle">',
