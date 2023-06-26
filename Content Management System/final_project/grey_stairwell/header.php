@@ -38,7 +38,7 @@
 
 </head>
 
-<body> <!-- closed in footer -->
+<body style="background: transparent url(<?php bloginfo('template_url'); ?>/images/background.png) repeat;"> <!-- closed in footer -->
   <div id="main"> <!-- closed in footer -->
     <div id="site_content"> <!-- closed in sidebar-->
       <div id="site_heading">
