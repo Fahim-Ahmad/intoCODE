@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<p>
+    <?php if (function_exists('nav_breadcrumb')) nav_breadcrumb(); ?>
+</p>
+
                         <?php if (have_posts()) : ?>
                             <?php while (have_posts()) : ?>
                                 <?php the_post(); ?>
