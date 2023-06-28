@@ -33,7 +33,7 @@ function nav_breadcrumb() {
   
   if ( !is_home() && !is_front_page() || is_paged() ) {
   
-  echo '<p class="breadcrumb">Sie sind hier: ';
+  echo '<p class="breadcrumb">You are here: ';
   
   global $post;
   $homeLink = get_home_url();
