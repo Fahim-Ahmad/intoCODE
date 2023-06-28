@@ -1,5 +1,9 @@
 <?php get_header(); ?>
-  
+
+<p>
+    <?php if (function_exists('nav_breadcrumb')) nav_breadcrumb(); ?>
+</p>
+
 <div id="content">
 
                         <?php if (have_posts()) : ?>
@@ -11,6 +15,9 @@
                                                 <p>
                                                     written by <b><?php the_author(); ?></b> on <?php the_time('j. F Y'); ?> at
                                                     <?php the_time('G:i'); ?> under <?php the_category(' | '); ?> categories.
+                                                </p>
+                                                <p>
+                                                    Tags: <?php the_tags(' ', ' | '); ?>.
                                                 </p>
                                                 <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanenter Link zu diesem 
                                                 Artikel">
