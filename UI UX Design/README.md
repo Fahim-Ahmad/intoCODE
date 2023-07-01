@@ -28,7 +28,7 @@ I have designed a sample app featuring the aforementioned criteria using [Figma]
 ![image_01](img/image_01.png)
 
 2. Login and Navigation:
-   - After creating an account, users can log in using their pre-defined username and password. Once logged in, they will be presented with a list of different items to select from, enabling them to explore further details.
+   - After creating an account, users can log in using their pre-defined username (email address) and password. Once logged in, they will be presented with a list of different items to select from, enabling them to explore further details.
 
 ![image_02](img/image_02.png)   
 
