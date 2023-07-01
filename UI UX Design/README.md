@@ -32,7 +32,7 @@ I have developed a sample app featuring the aforementioned criteria using [Figma
 
 ![image_02](img/image_02.png)   
 
-3. Viewing Office Details:
+3. Viewing Details:
    - Upon selecting a specific item, such as a government office, users will be presented with a list of different offices. They can then view the details of a particular office, including its address, contact number, email, etc. Additionally, users will have the option to make appointments or send documents.
 
 ![image_03](img/image_03.png)
