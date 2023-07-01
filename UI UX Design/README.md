@@ -1,6 +1,6 @@
 
 # Main Puspose:
-Developing an app to enables individuals to conveniently interact with different institutions and government offices. By incorporating a dynamic interface, users will be able to access contact information, schedule appointments, and submit documents effortlessly. By providing a comprehensive solution within a centralized platform, users will be able to streamline their interactions with different institutions.
+Designing an app to enables individuals to conveniently interact with different institutions and government offices. By incorporating a dynamic interface, users will be able to access contact information, schedule appointments, and submit documents effortlessly. By providing a comprehensive solution within a centralized platform, users will be able to streamline their interactions with different institutions.
 
 ## Key Features:
 
