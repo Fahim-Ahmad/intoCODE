@@ -52,7 +52,7 @@ I have developed a sample app featuring the aforementioned criteria using [Figma
    
    ![image_06](img/image_06.png)
 
-   - An arrow icon ( <div style="width: 0; height: 0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-right: 10px solid #17A2B8;"></div> ) will be available on any page to enable users to go back to the previous page, while a forward arrow icon ( <div style="width: 0; height: 0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 10px solid #17A2B8;"></div> ) will facilitate navigation to the next page.
+   - An arrow icon ( <div style="width: 0; height: 0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-right: 10px solid #17A2B8;"></div> ) will be available on any page to enable users to go back to the previous page, while a forward arrow icon ( ▶️ ) will facilitate navigation to the next page.
 
    ![image_07](img/image_07.png)
 
