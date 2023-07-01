@@ -1,7 +1,7 @@
 ![pen-and-paper-design](img/pen-and-paper-design.png)
 
 
-# Main Puspose:
+# Main Purpose:
 Designing an app to enable individuals to conveniently interact with different institutions and government offices. By incorporating a dynamic interface, users will be able to access contact information, schedule appointments, and submit documents effortlessly. By providing a comprehensive solution within a centralized platform, users will be able to streamline their interactions with different institutions.
 
 ## Key Features:
@@ -30,7 +30,7 @@ I have designed a sample app featuring the aforementioned criteria using [Figma]
 ![image_01](img/image_01.png)
 
 2. Login and Navigation:
-   - After creating an account, users can log in using their pre-defined username (email address) and password. Once logged in, they will be presented with a list of different items to select from, enabling them to explore further details.
+   - After creating an account, users can log in using their predefined username (email address) and password. Once logged in, they will be presented with a list of different items to select from, enabling them to explore further details.
 
 ![image_02](img/image_02.png)   
 
