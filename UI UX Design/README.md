@@ -17,7 +17,7 @@ Developing an app to enables individuals to conveniently interact with different
 I have developed a sample app featuring the aforementioned criteria using [Figma](https://www.figma.com/). To explore the detailed design and interact with the prototype, you can access it through the following links:
 
 - Figma Design: [https://www.figma.com/design](https://www.figma.com/file/kNoSetowFGLUG1IhuzQI3k/intoCODE-(UI%2FUX)?type=design&node-id=0%3A1&mode=design&t=f0o3fgOYAJjRfkIO-1)
-- Prototype/Live Demo: [https://www.figma.com/live-demo](https://www.figma.com/proto/kNoSetowFGLUG1IhuzQI3k/intoCODE-(UI%2FUX)?type=design&node-id=1-3&t=FL7W5nJ3VldDmup8-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3&mode=design)
+- Prototype: [https://www.figma.com/prototype](https://www.figma.com/proto/kNoSetowFGLUG1IhuzQI3k/intoCODE-(UI%2FUX)?type=design&node-id=1-3&t=FL7W5nJ3VldDmup8-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3&mode=design)
 
 
 ## Detailed Features:
