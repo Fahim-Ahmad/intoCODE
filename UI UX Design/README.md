@@ -1,3 +1,5 @@
+![pen-and-paper-design](img/pen-and-paper-design.png)
+
 
 # Main Puspose:
 Designing an app to enable individuals to conveniently interact with different institutions and government offices. By incorporating a dynamic interface, users will be able to access contact information, schedule appointments, and submit documents effortlessly. By providing a comprehensive solution within a centralized platform, users will be able to streamline their interactions with different institutions.
