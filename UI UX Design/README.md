@@ -1,6 +1,6 @@
 
 # Main Puspose:
-Designing an app to enables individuals to conveniently interact with different institutions and government offices. By incorporating a dynamic interface, users will be able to access contact information, schedule appointments, and submit documents effortlessly. By providing a comprehensive solution within a centralized platform, users will be able to streamline their interactions with different institutions.
+Designing an app to enable individuals to conveniently interact with different institutions and government offices. By incorporating a dynamic interface, users will be able to access contact information, schedule appointments, and submit documents effortlessly. By providing a comprehensive solution within a centralized platform, users will be able to streamline their interactions with different institutions.
 
 ## Key Features:
 
@@ -14,7 +14,7 @@ Designing an app to enables individuals to conveniently interact with different 
      - Similarly, when users choose government offices, they will be able to view <u>contact information, addresses</u>, <u>schedule appointments</u>, and conveniently <u>submit their documents</u>.
 
 
-I have developed a sample app featuring the aforementioned criteria using [Figma](https://www.figma.com/). To explore the detailed design and interact with the prototype, you can access it through the following links:
+I have designed a sample app featuring the aforementioned criteria using [Figma](https://www.figma.com/). To explore the detailed design and interact with the prototype, you can access it through the following links:
 
 - Figma Design: [https://www.figma.com/design](https://www.figma.com/file/kNoSetowFGLUG1IhuzQI3k/intoCODE-(UI%2FUX)?type=design&node-id=0%3A1&mode=design&t=f0o3fgOYAJjRfkIO-1)
 - Prototype: [https://www.figma.com/prototype](https://www.figma.com/proto/kNoSetowFGLUG1IhuzQI3k/intoCODE-(UI%2FUX)?type=design&node-id=1-3&t=FL7W5nJ3VldDmup8-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3&mode=design)
