@@ -1,6 +1,6 @@
 ![pen-and-paper-design](img/pen-and-paper-design.png)
 
-`Don't laugh, I NEVER had good handwriting.` `:rofl:`
+`Don't laugh, I NEVER had good handwriting.` :rofl:
 
 
 # Main Purpose:
