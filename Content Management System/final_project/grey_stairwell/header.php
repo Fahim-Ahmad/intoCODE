@@ -59,9 +59,9 @@
   <!-- <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script> -->
   <!-- <script type="text/javascript"> -->
 
-  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
-  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.easing.min.js"></script>
-  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.nivo.slider.pack.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/js/jquery.easing.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/js/jquery.nivo.slider.pack.js"></script>
   <script>
 
     $(window).load(function () {
