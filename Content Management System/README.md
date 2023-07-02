@@ -7,10 +7,10 @@ During this class, we developed an example theme using YAML4, which resembles th
 ![demo_theme](img/demo_theme.png)
 
 # Final project
-As part of the final project, I have developed a functional WordPress theme from below design pattern that fulfills the following requirements:
+As part of the final project, I have developed a functional WordPress theme from the following design pattern: [final_project -> grey_stairwell -> index.html](final_project/grey_stairwell/index.html)
 
-> Design pattern -> [final_project -> grey_stairwell -> index.html](final_project/grey_stairwell/index.html)
-        
+## Requirements
+
 - Verifying the above design template against the [W3C](https://validator.w3.org/) validator to ensure its validity.
 
 - Ensuring that all necessary styles from the `design template` and `personal styles/corrections` are being included in the `style.css` file.
