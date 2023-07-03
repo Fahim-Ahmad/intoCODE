@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML / CSS Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="center">HTML & CSS Playground</h1>
+
+    <div id="boxes">
+        <textarea class="code-box" id="html" placeholder="Type your HTML code here">
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        </textarea>
+
+        <textarea class="code-box" id="css" placeholder="Type your CSS code here">
+        h1 {color: red}
+        h2 {color: green}
+        h3 {color: blue}
+        h4 {color: aqua}
+        h5 {color: darkblue}
+        h6 {color: darkred}
+        </textarea>
+
+        <div class="code-box file-box" ondrop="handleFileDrop(event)" ondragover="handleDragOver(event)">
+            <!-- <p>Drop your files here</p> -->
+            <table class="files-list"></table>
+        </div>
+    </div>
+
+    <br>
+    <button onclick="displayResult()">Submit</button>
+    <div id="result">
+        <div class="output-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

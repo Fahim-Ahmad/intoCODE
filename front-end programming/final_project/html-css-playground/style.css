@@ -1,0 +1,42 @@
+h1.center {
+  text-align: center;
+}
+
+#boxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.code-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 33%;
+  height: 200px;
+}
+
+.file-box {
+  overflow: scroll;
+}
+
+.files-list {
+  width: 100%;
+  border: 1px gray solid;
+}
+
+.hidden {
+  display: none;
+}
+
+.copy-btn {
+  background-color: aquamarine;
+}
+
+.show-btn {
+  background-color: greenyellow;
+}
+
+#result {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
