@@ -1,41 +1,54 @@
-h1.center {
+h1.center-playground {
   text-align: center;
 }
 
-#boxes {
+#boxes-playground {
   display: flex;
-  flex-direction: row;
 }
 
-.code-box {
+.box-playground {
   border: 1px solid #ccc;
-  padding: 10px;
-  width: 33%;
-  height: 200px;
-}
-
-.file-box {
-  overflow: scroll;
-}
-
-.files-list {
   width: 100%;
-  border: 1px gray solid;
+  height: 250px;
 }
 
-.hidden {
+.box-playground-title {
+  padding-left: 5px;
+  background-color: gainsboro;
+  border: 1px solid black;
+}
+
+.code-box-playground {
+  border: 0;
+  padding: 0;
+  width: 100%;
+  height: 90%;
+}
+
+.file-box-playground {
+  overflow: scroll;
+  width: 100%;
+  height: 90%;
+}
+
+.files-list-playground {
+  width: 100%;
+  border-bottom: 1px gray solid;
+}
+
+.hidden-playground {
   display: none;
 }
 
-.copy-btn {
+.copy-btn-playground {
   background-color: aquamarine;
 }
 
-.show-btn {
+.show-btn-playground {
   background-color: greenyellow;
 }
 
-#result {
+#result-playground {
   margin-top: 10px;
   border: 1px solid #ccc;
   padding: 10px;

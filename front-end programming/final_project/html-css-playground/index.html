@@ -7,39 +7,52 @@
 </head>
 
 <body>
-    <h1 class="center">HTML & CSS Playground</h1>
+    <h1 class="center-playground">HTML & CSS Playground</h1>
 
-    <div id="boxes">
+    <div id="boxes-playground">
 
         <!-- html code-block -->
-        <textarea class="code-box" id="html" placeholder="Type your HTML code here">
-        <h1>Title</h1>
-        <h2>Subtitle</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed neque non nisi gravida fermentum at in lectus. Maecenas sit amet pulvinar lectus. Mauris fringilla sagittis sollicitudin. Ut facilisis auctor velit, a blandit metus ullamcorper in. Morbi sed sagittis arcu. Curabitur at nulla nisi. Sed eget leo commodo, auctor lacus a, efficitur felis.
-        </p>
-        <a href="https://www.lipsum.com/" target="_blank">Read more...</a>
-        </textarea>
+        <div class="box-playground">
+            <div class="box-playground-title">Write HTML code here</div>
+            <textarea class="code-box-playground" id="html" placeholder="Write your HTML code here">
+ <h1>Title</h1>
+
+ <h2>Subtitle</h2>
+
+ <p>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed neque non nisi gravida fermentum at in lectus. Maecenas sit amet pulvinar lectus. Mauris fringilla sagittis sollicitudin. Ut facilisis auctor velit, a blandit metus ullamcorper in. Morbi sed sagittis arcu. Curabitur at nulla nisi. Sed eget leo commodo, auctor lacus a, efficitur felis.
+ </p>
+
+ <a href="https://www.lipsum.com/" target="_blank">Read more...</a>
+            </textarea>
+        </div>
 
         <!-- css code-block -->
-        <textarea class="code-box" id="css" placeholder="Type your CSS code here">
-        h1 {color: darkred}
-        h2 {text-decoration: underline}
-        a {text-decoration: none}
-        </textarea>
+        <div class="box-playground">
+            <div class="box-playground-title">Write CSS code here</div>
+            <textarea class="code-box-playground" id="css" placeholder="Write your CSS code here">
+ h1 {color: darkred}
+
+ h2 {text-decoration: underline}
+
+ a {text-decoration: none}
+            </textarea>
+        </div>
 
         <!-- file upload code-block: drag & drop -->
-        <div class="code-box file-box" ondrop="handleFileDrop(event)" ondragover="handleDragOver(event)">
-            <!-- <p>Drop your files here</p> -->
-            <table class="files-list"></table>
+        <div class="box-playground">
+            <div class="box-playground-title">Upload files/images here</div>
+            <div class="file-box-playground" ondrop="handleFileDrop(event)" ondragover="handleDragOver(event)">
+                <table class="files-list-playground"></table>
+            </div>
         </div>
     </div>
 
     <br>
-    <button onclick="displayResult()">Submit</button>
+    <button onclick="displayResult()">Show result</button>
 
     <!-- output container -->
-    <div id="result">
+    <div id="result-playground">
     </div>
 
     <script src="script.js"></script>

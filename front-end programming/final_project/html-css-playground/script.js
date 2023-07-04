@@ -1,11 +1,10 @@
-
 function displayResult() {
   var htmlElement = document.querySelector("#html").value;
   var cssElement = document.querySelector("#css").value;
   // console.log(htmlElement);
   // console.log(cssElement)
 
-  var resultElement = document.querySelector("#result");
+  var resultElement = document.querySelector("#result-playground");
   resultElement.innerHTML = '<div class="output-box">' + htmlElement + "</div>";
   // console.log(resultElement);
 
@@ -42,7 +41,7 @@ function handleFileDrop(event) {
   var files = event.dataTransfer.files;
   // console.log('files:', files);
 
-  var filesTable = document.querySelector(".files-list");
+  var filesTable = document.querySelector(".files-list-playground");
   // console.log('filesTable:', filesTable);
 
   for (var i = 0; i < files.length; i++) {
@@ -54,18 +53,18 @@ function handleFileDrop(event) {
     // console.log('fileName:', fileName);
 
     var uuid = document.createElement("span");
-    uuid.className = "hidden";
+    uuid.className = "hidden-playground";
     uuid.innerText = URL.createObjectURL(file);
     // console.log('uuid:', uuid);
 
     var copyBtn = document.createElement("button");
     copyBtn.innerText = "Copy";
-    copyBtn.classList.add("copy-btn");
+    copyBtn.classList.add("copy-btn-playground");
     copyBtn.addEventListener("click", createCopyHandler(uuid.innerText));
 
     var showBtn = document.createElement("button");
     showBtn.innerText = "Preview";
-    showBtn.classList.add("show-btn");
+    showBtn.classList.add("show-btn-playground");
     showBtn.addEventListener("click", createShowHandler(uuid.innerText));
 
     var tableRow = document.createElement("tr");
