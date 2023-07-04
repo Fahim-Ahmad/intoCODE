@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+    background-image: radial-gradient(circle at 50% 50%, white 1px, transparent 1px);
+    background-size: 15px 15px;
+}
+  
+#follow {
+    background-color: #FFF5EE;
+    color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 100px;
+    transition: 1.5s ease-in-out;
+    text-align: center;
+    animation: glowing 1.5s ease-in-out infinite;
+}
+
+@keyframes glowing {
+    0% {
+      box-shadow: 0 0 10px 10px yellow;
+    }
+    50% {
+      box-shadow: 0 0 15px 15px yellow;
+    }
+    100% {
+      box-shadow: 0 0 10px 10px yellow;
+    }
+}
+
+.show-mobile {
+  display: none;
+}
+
+#direction {
+    border: 1px solid black;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: red;
+}
+
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+  .show-mobile {
+    display: block;
+  }
+
+  #follow {
+    width: 30%;
+    height: 75px;
+  }
+
+  #direction {
+    padding: 0;
+  }
+}
