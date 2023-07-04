@@ -10,24 +10,25 @@
     <h1 class="center">HTML & CSS Playground</h1>
 
     <div id="boxes">
+
+        <!-- html code-block -->
         <textarea class="code-box" id="html" placeholder="Type your HTML code here">
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <h5>Heading 5</h5>
-        <h6>Heading 6</h6>
+        <h1>Title</h1>
+        <h2>Subtitle</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed neque non nisi gravida fermentum at in lectus. Maecenas sit amet pulvinar lectus. Mauris fringilla sagittis sollicitudin. Ut facilisis auctor velit, a blandit metus ullamcorper in. Morbi sed sagittis arcu. Curabitur at nulla nisi. Sed eget leo commodo, auctor lacus a, efficitur felis.
+        </p>
+        <a href="https://www.lipsum.com/" target="_blank">Read more...</a>
         </textarea>
 
+        <!-- css code-block -->
         <textarea class="code-box" id="css" placeholder="Type your CSS code here">
-        h1 {color: red}
-        h2 {color: green}
-        h3 {color: blue}
-        h4 {color: aqua}
-        h5 {color: darkblue}
-        h6 {color: darkred}
+        h1 {color: darkred}
+        h2 {text-decoration: underline}
+        a {text-decoration: none}
         </textarea>
 
+        <!-- file upload code-block: drag & drop -->
         <div class="code-box file-box" ondrop="handleFileDrop(event)" ondragover="handleDragOver(event)">
             <!-- <p>Drop your files here</p> -->
             <table class="files-list"></table>
@@ -36,8 +37,9 @@
 
     <br>
     <button onclick="displayResult()">Submit</button>
+
+    <!-- output container -->
     <div id="result">
-        <div class="output-container"></div>
     </div>
 
     <script src="script.js"></script>
