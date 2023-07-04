@@ -9,7 +9,7 @@ function displayResult() {
   resultElement.innerHTML = '<div class="output-box">' + htmlElement + "</div>";
   // console.log(resultElement);
 
-  var cssElement = cssElement.split("\n");
+  var cssElement = cssElement.split("}");
   // console.log(cssElement)
   var cssElementUpdate = "";
   for (var i = 0; i < cssElement.length; i++) {
@@ -18,7 +18,7 @@ function displayResult() {
     // console.log(line.length);
     // console.log(line.length > 0);
     if (line.length > 0) {
-    cssElementUpdate += '.output-box ' + line + '\n';
+    cssElementUpdate += '.output-box ' + line + '}\n';
     }
   }
 
