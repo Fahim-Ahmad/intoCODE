@@ -1,13 +1,33 @@
-function displayResult() {
-  var htmlElement = document.getElementById("html").value;
-  var cssElement = document.getElementById("css").value;
 
-  var result = document.querySelector(".output-container");
-  result.innerHTML = '<div class="html-output">' + htmlElement + "</div>";
+function displayResult() {
+  var htmlElement = document.querySelector("#html").value;
+  var cssElement = document.querySelector("#css").value;
+  // console.log(htmlElement);
+  // console.log(cssElement)
+
+  var resultElement = document.querySelector("#result");
+  resultElement.innerHTML = '<div class="output-box">' + htmlElement + "</div>";
+  // console.log(resultElement);
+
+  var cssElement = cssElement.split("\n");
+  // console.log(cssElement)
+  var cssElementUpdate = "";
+  for (var i = 0; i < cssElement.length; i++) {
+    var line = cssElement[i].trim();
+    // console.log(line)
+    // console.log(line.length);
+    // console.log(line.length > 0);
+    if (line.length > 0) {
+    cssElementUpdate += '.output-box ' + line + '\n';
+    }
+  }
 
   var cssStyle = document.createElement("style");
-  cssStyle.textContent = ".html-output " + cssElement;
-  result.prepend(cssStyle);
+  // console.log(cssStyle);
+  cssStyle.textContent = cssElementUpdate;
+  console.log(cssStyle);
+
+  resultElement.prepend(cssStyle);
 }
 
 function handleDragOver(event) {
