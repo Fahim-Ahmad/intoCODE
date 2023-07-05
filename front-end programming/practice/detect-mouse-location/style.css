@@ -32,10 +32,6 @@ body {
     }
 }
 
-.show-mobile {
-  display: none;
-}
-
 #direction {
     border: 1px solid black;
     padding-top: 5%;
@@ -45,19 +41,12 @@ body {
 }
 
 @media (max-width: 768px) {
-  .hide-mobile {
-    display: none;
-  }
-  .show-mobile {
-    display: block;
-  }
-
   #follow {
     width: 30%;
     height: 75px;
   }
 
   #direction {
-    padding: 0;
+    display: none;
   }
 }
