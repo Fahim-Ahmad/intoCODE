@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body h2 {
   color: #2C3539;
   font-size: 24px;
