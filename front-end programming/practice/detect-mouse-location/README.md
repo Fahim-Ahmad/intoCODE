@@ -12,4 +12,4 @@ Skills I gained:
   * accessing the mouse coordinates
   * updating the position of an element dynamically
 
-You can access the live [here](https://detect-mouse-location-js.netlify.app)
+You can access the live demo [here](https://detect-mouse-location-js.netlify.app)
