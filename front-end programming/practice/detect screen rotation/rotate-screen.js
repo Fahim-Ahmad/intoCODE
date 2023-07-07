@@ -1,5 +1,5 @@
 window.addEventListener("orientationchange", function() {
-  var title = document.getElementById("title");
+  var title = document.querySelector("#title");
   
   if (window.orientation === 0 || window.orientation === 180) {
     title.textContent = "Hi, please rotate your device :)";
