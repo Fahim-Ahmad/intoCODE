@@ -7,6 +7,7 @@ A `<div>` element with the text 'intoCODE' is positioned initially in the middle
 Additionally, the code determines the direction in which the mouse is moving relative to the `<div>` element. It updates a separate element with the corresponding direction information, such as 'Going left,' 'Going right,' 'Going up,' 'Going down,' and their combinations ('up left,' 'up right,' 'down left,' 'down right').
 
 Skills I gained:
+
     * detecting the position of an element on a web page
     * accessing the mouse coordinates
     * updating the position of an element dynamically
