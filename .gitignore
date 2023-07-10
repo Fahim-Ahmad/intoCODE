@@ -1,3 +1,5 @@
+*.vscode
+
 *ignore_git*
 *.DS_Store
 # History files
