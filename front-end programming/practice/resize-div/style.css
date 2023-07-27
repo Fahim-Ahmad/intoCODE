@@ -1,0 +1,86 @@
+/* header */
+header {
+    background-color: gray;
+    height: 5vh;
+    border: 1px black solid;
+}
+
+/* footer */
+footer {
+    background-color: gray;
+    height: 5vh;
+    border: 1px black solid;
+}
+
+/* main body */
+#main {
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    min-height: 90vh;
+}
+
+/* left side - sidebar */
+#side-bar {
+    width: 30%;
+    background-color: gray;
+    border: 1px black solid;
+}
+
+/* rightside - boxex */
+.admin-boxes {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+ 
+/* individual boxes */
+.admin-boxes .admin-box {
+    position: relative;
+    width: 30%;
+    height: 40vh;
+    margin: 2vh 1% 1vh 1%;
+    background-color: whitesmoke;
+    border: 1px black solid;
+    transition: width 0.3s, height 0.3s;
+}
+
+/* add the .expand-active class using javascript on each box that is expanded */
+.admin-boxes .admin-box.expand-active {
+    width: 90%;
+    height: 90%;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    background-color: whitesmoke;
+    border: 1px black solid;
+}
+
+/* add the .always-first class using javascript on each box that is expanded OR has the class .expand-active */
+.admin-boxes .always-first {
+    order: -1;
+}
+
+.admin-boxes .admin-box span.box-title {
+    background-color: white;
+    padding: 2%;
+    border-radius: 5%;
+    border: 1px black solid;
+}
+
+.admin-boxes .admin-box span.box-expand {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: orange;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+/* hide contents inside the boxes, remove the .hide class using javascript when the box is expanded */
+.hide {
+    display: none;
+}
