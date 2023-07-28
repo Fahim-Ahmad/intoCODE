@@ -22,9 +22,16 @@ preventElements.forEach(preventElement => {
 
     } else if (preventElement.classList.contains('prevent-select')) {
         // console.log('prevent select');
+        // preventElement.addEventListener('selectstart', function(event) {
+        //     event.preventDefault();
+        // })
 
-        preventElement.addEventListener('selectstart', function(event) {
-            event.preventDefault();
+        events = ['selectstart', 'touchstart', 'touchmove', 'touchend']
+        events.forEach(e => {
+            // console.log(e)
+            preventElement.addEventListener(e, function(event) {
+                event.preventDefault();
+            })
         })
 
     } else if (preventElement.classList.contains('prevent-type')) {
@@ -38,4 +45,7 @@ preventElements.forEach(preventElement => {
     }
 
 })
+
+
+
 
