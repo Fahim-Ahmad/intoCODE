@@ -1,12 +1,12 @@
 # [Git](https://git-scm.com) and Version Control
 
-I recently had a Git and version control course, and here is a short summary of my key takeaways. I'm sharing this for my future reference and for anyone interested:
+I recently attended a course on Git and version control. Here I share the key takeaways for my future reference and for anyone interested:
 
 What I've Learned:
 
     01) Commands for managing changes in the project, including staging changes, committing them, and viewing differences as well as resetting changes.
-    02) Viewing the project's history/commit logs and inspecting individual commits.
-    03) Creating branches, switching between them, and deleting branches.
+    02) Viewing the project's history / commit logs and inspecting individual commits.
+    03) Creating branches and switching between them.
     04) Combining changes from different branches, either by merging or by rewriting commit history using rebasing.
     05) Managing remote repositories.
     06) Keeping local repositories up-to-date with remote repositories.
@@ -71,34 +71,35 @@ What I've Learned:
 > Merge Conflict: When merging one branch into another branch, Git will try to automatically apply the changes to the current branch. However, a merge conflict occurs when both branches have made changes to the same part of a file. This could involve adding, modifying, or deleting lines of code to resolve the conflict.      
 
 ### Remote Repositories (GitHub):
-    - git remote add origin <url>: Adds a remote repository named origing
-      NOTE: Please replace the <url> with your url of a [GitHub](https://github.com) repository.
+    - git remote add origin <url>: Adds a remote repository named origin
+      NOTE: Please replace the <url> with the url of your [GitHub](https://github.com) repository.
             The name <origin> is optional, but mostly used among developers. You can change it to any any other name you like
     
     - git push origin <branch-name>: Pushes all commits of a specific local branch to a remote branch. For example, 'git push origin master' pushes commits to the master branch of a remote repository.
     
     - git push origin --all: pushes all local branches to the remote repository.
       
-> sometimes it fails to push changes to the remote branch. The main reason could be that the local branch might be behind the remote branch. So one must first integrate the remote changes using 'git pull' first. Other way would be to force push the changes using 'git push <branch-name> --force' or 'git push --all --force'
+> sometimes it fails to push changes to the remote branch. The main reason could be that the local branch might be behind the remote branch. One should initially incorporate remote changes using 'git pull'. Alternatively, one may choose to force-push the changes using 'git push < branch-name > --force' or 'git push --all --force'.
 
     - git remote: Displays list of remote repositories.
-    - git remote Removes origin: Remove a remote repository, here the 'origing'.
+    - git remote Removes origin: Remove a remote repository, here the 'origin'.
 
 
 ### Pulling Changes:
     - git pull origin <branch-name>: Fetches and merge changes from a specific branch of a remote repository.
 
-> what does 'git pull' do? it gets the changes from the remote branch and adds them to the local branch, in other words it merges the remote branch with the local branch. In some cases, for example, when both the local branch and the remote branch have received new commits, Git does not know how to reconcile the differences between the two branches and we need to specify it ourselves. We can do so by running one of the following commands:
+> what does 'git pull' do? it gets the changes from the remote branch and adds them to the local branch. In other words, it merges the remote branch with the local branch. In some cases, for example, when both the local branch and the remote branch have received new commits, Git does not know how to reconcile the differences between the two branches. Thus, we need to specify it ourselves. We can do so by running one of the following commands:
+
         1) git config pull.rebase false  # merge
         2) git config pull.rebase true   # rebase
         3) git config pull.ff only       # fast-forward only
 
 ### Setting Upstream Branch Tracking:
-Up to this point we know that 'git push origin <branch-name>' and 'git pull origin <branch-name>' add the changes from local branch to remote branch or vice-versa, but I see people doing 'git push' and 'git pull' without specifying the branch name, how to do that? simply by setting up tracking.
+Up to this point we know that 'git push origin < branch-name >' and 'git pull origin < branch-name >' add the changes from local branch to remote branch or vice-versa, but I often observe individuals executing 'git push' and 'git pull' without specifying the branch name; how do they do that? simply by setting up branch tracking.
 
-When you set up tracking, Git associates your local branch with a corresponding remote branch, so Git knows which branch to push to or pull from without you having to specify it explicitly every time.
+When you set up branch tracking, Git associates the local branch with a corresponding remote branch, so Git knows which branch to push to or pull from without having to specify it explicitly every time.
 
-    - git push -u origin <branch-name>: Sets up tracking when pushing a branch so that future 'git push' commands without branch names will push to the 'origin/<branch-name>' branch in remote.
+    - git push -u origin <branch-name>: Sets up tracking when pushing a branch so that future 'git push' commands without branch names will push to the 'origin/<branch-name>' in remote.
     - git push -u origin --all: same as above, but for all branches.
     - git branch --set-upstream-to=origin/<branch-name> <branch-name>: Sets up tracking when pulling from a branch
 
