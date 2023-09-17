@@ -93,6 +93,15 @@ What I've Learned:
         2) git config pull.rebase true   # rebase
         3) git config pull.ff only       # fast-forward only
 
+### Setting Upstream Branch Tracking:
+Up to this point we know that 'git push origin <branch-name>' and 'git pull origin <branch-name>' add the changes from local branch to remote branch or vice-versa, but I see people doing 'git push' and 'git pull' without specifying the branch name, how to do that? simply by setting up tracking.
+
+When you set up tracking, Git associates your local branch with a corresponding remote branch, so Git knows which branch to push to or pull from without you having to specify it explicitly every time.
+
+    - git push -u origin <branch-name>: Sets up tracking when pushing a branch so that future 'git push' commands without branch names will push to the 'origin/<branch-name>' branch in remote.
+    - git push -u origin --all: same as above, but for all branches.
+    - git branch --set-upstream-to=origin/<branch-name> <branch-name>: Sets up tracking when pulling from a branch
+
 ### Binary Search (Bisect):
     - git tag <label-name> <commit-hash>: Creates/adds a label for a specific commit.
     - git bisect start: Initiates a binary search to find/track a specific commit.
