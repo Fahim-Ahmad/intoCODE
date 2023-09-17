@@ -64,6 +64,12 @@ What I've Learned:
     - git rebase --continue: Continues a rebase in progress.
       NOTE: 'git rebase' Rewrites commit history.
 
+> Fast-Forward Merge: When you merge a branch into the current branch (for example, main or master) and the current branch hasn't received any new commits since the creation of the branch you are merging from, a fast-forward merge occurs. This means Git can move the branch pointer of the current branch forward in a linear fashion without creating a new merge commit.
+
+> Non-Fast-Forward Merge: When both branches (the one you are merging into and the one you are merging from) have received new commits, a non-fast-forward merge occurs. This means Git creates a new merge commit to capture the history of both branches being merged.
+
+> Merge Conflict: When merging one branch into another branch, Git will try to automatically apply the changes to the current branch. However, a merge conflict occurs when both branches have made changes to the same part of a file. This could involve adding, modifying, or deleting lines of code to resolve the conflict.      
+
 ### Remote Repositories (GitHub):
     - git remote add origin <url>: Adds a remote repository named origing
       NOTE: Please replace the <url> with your url of a [GitHub](https://github.com) repository.
