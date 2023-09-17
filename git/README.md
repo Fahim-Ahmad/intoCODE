@@ -1,11 +1,11 @@
 # [Git](https://git-scm.com) and Version Control
 
-I recently had a Git and version control course. Here I'm sharing the key ain takeaways for my future reference and for anyone interested:
+I recently had a Git and version control course, and here is a short summary of my key takeaways. I'm sharing this for my future reference and for anyone interested:
 
 What I've Learned:
 
     01) Commands for managing changes in the project, including staging changes, committing them, and viewing differences as well as resetting changes.
-    02) Viewing the project's history / commit logs and inspecting individual commits.
+    02) Viewing the project's history/commit logs and inspecting individual commits.
     03) Creating branches, switching between them, and deleting branches.
     04) Combining changes from different branches, either by merging or by rewriting commit history using rebasing.
     05) Managing remote repositories.
